@@ -98,3 +98,32 @@ summary{
     color: darkturquoise;
     cursor: pointer;
 }
+
+
+/*FOOTER*/
+
+
+footer{
+    background-image: url('../Imagenes/banner-line-img1-3-3-1920x400.jpg');
+    background-size: cover;
+    background-position: center;
+    color:#F5FAFF;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    position: relative;
+    margin-top: 80px;
+}
+.wave_footer{
+    position: absolute;
+    top: 0;
+    height: 180px;
+    width: 100%;
+}
+.info_footer{
+    text-align: center;
+    height: 20px;
+    margin-right: 5%;
+}
