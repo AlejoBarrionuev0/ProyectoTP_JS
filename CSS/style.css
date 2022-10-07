@@ -1,0 +1,65 @@
+@import url('http://fonts.cdnfonts.com/css/liberation-serif');
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:'Times New Roman', Times, serif;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 1%;
+}
+
+h3{
+    margin: 1%;
+}
+img{
+    margin: 20px;
+}
+body{
+    background-color: #F5FAFF;
+}
+
+
+/*HEADER*/
+
+
+.portada{
+    height: 400px;
+    background-image: url('../Imagenes/banner-line-img1-3-3-1920x400.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor_titulo{
+    padding-top: 5%;
+    margin-left: 5%;
+}
+.titulo{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Liberation Serif', sans-serif;
+    color: #F5FAFF;
+    vertical-align: center;
+}
+.autor{
+    color: #F5FAFF;
+    font-weight: 100;
+}
+
+.logo_escuela{
+    padding-top: 2%;
+    margin-right: 5%;
+    height: 40%;
+}
+
+.wave_portada{
+    position: absolute;
+    bottom: 0;
+    height: 180px;
+    width: 100%;
+}
