@@ -73,6 +73,52 @@
                 <img src="Imagenes/scriptsrc.png" alt="Script_src">
             </details>
         </div>
+
+        <div class="container_pregunta">
+            <details>
+                <summary>
+            <h2 class="pregunta">¿Cómo es el manejo de las variables, tipos de datos y expresiones regulares en JS?</h2>
+            </summary>
+            <h3>JavaScript tiene tres tipos de declaraciones de variables.</h3>
+            <ul>
+                <li> <strong>var</strong>: Declara una variable, opcionalmente la inicia a un valor.</li>
+                <li> <strong>let</strong>: Declara una variable local con ámbito de bloque, opcionalmente la inicia a un valor.</li>
+                <li> <strong>const</strong>: Declara un nombre de constante de solo lectura y ámbito de bloque.</li>
+            </ul>
+            <p>Los nombres de las variables (llamados identificadores) se ajustan a ciertas reglas.</p>
+            <p>Un identificador de JS debe comenzar con una letra, un guion bajo (_) o un signo de dólar ($). Los siguientes caracteres también pueden ser dígitos (0-9).</p>
+            <p>Dado que JS distingue entre mayúsculas y minúsculas, las letras incluyen los caracteres "A" a "Z" (mayúsculas), así como "a" a "z" (minúsculas).</p>
+            <h3>En JavaScript existen Seis tipos de datos primitivos:</h3>
+            <ul>
+                <li> <strong> Undefined</strong>: Una variable a la que no se le ha asignado un valor tiene el valor undefined.</li>
+                <li><strong>Boolean</strong>: representa una entidad lógica y puede tener dos valores: true y false.</li>
+                <li><strong>Number</strong>: es un valor en formato binario de 64 bits de doble precisión IEEE 754 (números entre -(253 - 1) y 253 - 1).</li>
+                <li><strong>String</strong>: se utiliza para representar datos textuales. Es un conjunto de "elementos" de valores enteros sin signo de 16 bits.</li>
+                <li><strong>BigInt</strong>: es un primitivo numérico en JavaScript que puede representar números enteros con precisión arbitraria. </li>
+                <li><strong>Symbol</strong>: Un símbolo es un valor primitivo único e inmutable y se puede utilizar como clave de una propiedad de objeto.</li>
+            </ul>
+            <p> <strong> Las expresiones regulares </strong>son patrones que se utilizan para hacer coincidir combinaciones de caracteres en cadenas. En JavaScript, las expresiones regulares también son objetos. Estos patrones se utilizan con los métodos RegExp:</p>
+            <ul>
+                <li><strong>exec()</strong> : Ejecuta una búsqueda por una coincidencia en una cadena. Devuelve un arreglo de información o null en una discrepancia.</li>
+                <li><strong>test()</strong> : Prueba una coincidencia en una cadena. Devuelve true o false.</li>
+                <li><strong>match()</strong> : Devuelve un arreglo que contiene todas las coincidencias, incluidos los grupos de captura, o null si no se encuentra ninguna coincidencia.</li>
+                <li><strong>matchAll()</strong> : Devuelve un iterador que contiene todas las coincidencias, incluidos los grupos de captura.</li>
+                <li><strong>replace()</strong> : Ejecuta una búsqueda por una coincidencia en una cadena y reemplaza la subcadena coincidente con una subcadena de reemplazo.</li>
+                <li><strong>replaceAll()</strong> : Ejecuta una búsqueda de todas las coincidencias en una cadena y reemplaza las subcadenas coincidentes con una subcadena de reemplazo.</li>
+                <li><strong>search()</strong> : Prueba una coincidencia en una cadena. Devuelve el índice de la coincidencia, o -1 si la búsqueda falla.</li>
+                <li><strong>split()</strong> : Utiliza una expresión regular o una cadena fija para dividir una cadena en un arreglo de subcadenas.</li>
+            </ul>
+            <h3>Caracteres especiales que se pueden usar en expresiones regulares:</h3>
+            <ul>
+                <li><strong>Clases de caracteres</strong>: \, ., \cX, \d, \D, \f, \n, \r, \s, \S, \t, \v, \w, \W, \0, \xhh, \uhhhh, \uhhhhh, [\b]</li>
+                <li><strong>Aserciones</strong>: ^, $, x(?=y), x(?!y), (?<=y)x, (?<!y)x, \b, \B</li>
+                <li><strong>Grupos y rangos</strong>: (x), (?:x), (?Name>x), x|y, [xyz], [^xyz], \Number</li>
+                <li><strong>Cuantificadores</strong>: *, +, ?, x{n}, x{n,}, x{n,m}</li>
+                <li><strong>Escapes de propiedades Unicode</strong>: \p{UnicodeProperty}, \P{UnicodeProperty}</li>
+
+            </ul>
+            </details>
+        </div>
     </div>
     <script src="JS/script.js"></script>
 </body>
